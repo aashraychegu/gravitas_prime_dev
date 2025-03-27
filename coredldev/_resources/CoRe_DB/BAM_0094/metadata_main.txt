@@ -1,0 +1,32 @@
+database_key            = BAM:0094
+available_runs          = R01, R02, R03
+simulation_name         = MS1b_1.944_0.944_0.00_0.00_0.036
+binary_type             = BNS
+reference_bibkeys       = Dietrich:2016hky
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = SGRID
+id_type                     = CRV
+id_mass                     = 2.888029e+00 
+id_rest_mass                = 3.200000e+00
+id_mass_ratio               = 2.059277e+00
+id_ADM_mass                 = 2.867818e+00
+id_ADM_angularmomentum      = 7.849665e+00
+id_gw_frequency_Hz          = 4.027543e+02
+id_gw_frequency_Momega22    = 3.599740e-02
+id_eos                      = MS1b
+id_kappa2T                  = 2.507540e+02
+id_Lambda                   = 1.308206e+03
+id_eccentricity             = 3.351762e-03
+
+id_mass_starA               = 1.944006e+00
+id_rest_mass_starA          = 2.200000e+00
+id_spin_starA               = 0.000000e+00, 0.000000e+00, 0.000000e+00
+id_LoveNum_kell_starA       = 8.682000e-02, 2.298000e-02, 8.220000e-03
+id_Lambdaell_starA          = 1.828778e+02, 2.430940e+02, 3.119256e+02
+id_mass_starB               = 9.440236e-01
+id_rest_mass_starB          = 1.000000e+00
+id_spin_starB               = 0.000000e+00, 0.000000e+00, 0.000000e+00
+id_LoveNum_kell_starB       = 1.618400e-01, 5.059000e-02, 2.167000e-02
+id_Lambdaell_starB          = 9.279913e+03, 5.462261e+04, 3.146939e+05

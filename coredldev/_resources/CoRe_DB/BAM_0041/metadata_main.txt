@@ -1,0 +1,32 @@
+database_key            = BAM:0041
+available_runs          = R01
+simulation_name         = H4_1.374_1.374_0.22_0.22_0.037
+binary_type             = BNS
+reference_bibkeys       = -
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = SGRID
+id_type                     = CRV
+id_mass                     = 2.747545e+00 
+id_rest_mass                = 2.989214e+00
+id_mass_ratio               = 1.000000e+00
+id_ADM_mass                 = 2.725649e+00
+id_ADM_angularmomentum      = 8.711749e+00
+id_gw_frequency_Hz          = 4.386554e+02
+id_gw_frequency_Momega22    = 3.729904e-02
+id_eos                      = H4
+id_kappa2T                  = 1.869881e+02
+id_Lambda                   = 9.972700e+02
+id_eccentricity             = 6.859977e-03
+
+id_mass_starA               = 1.373773e+00
+id_rest_mass_starA          = 1.494607e+00
+id_spin_starA               = 4.764325e-11, -7.025657e-14, 4.094781e-01
+id_LoveNum_kell_starA       = 1.128400e-01, 3.276000e-02, 1.288000e-02
+id_Lambdaell_starA          = 9.972700e+02, 2.580477e+03, 6.458776e+03
+id_mass_starB               = 1.373773e+00
+id_rest_mass_starB          = 1.494607e+00
+id_spin_starB               = 4.764325e-11, -7.025657e-14, 4.094781e-01
+id_LoveNum_kell_starB       = 1.128400e-01, 3.276000e-02, 1.288000e-02
+id_Lambdaell_starB          = 9.972700e+02, 2.580477e+03, 6.458776e+03

@@ -1,0 +1,56 @@
+database_key            = THC:0048:R02
+simulation_name         = DD2_1.654_1.654_0.00_0.00_0.062_M0_0.125
+binary_type             = BNS
+reference_bibkeys       = Camilletti:2022jms
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 3.308 
+id_rest_mass                = 3.14784
+id_mass_ratio               = 1.0
+id_ADM_mass                 = 3.27
+id_ADM_angularmomentum      = 10.229
+id_gw_frequency_Hz          = 607.844
+id_gw_frequency_Momega22    = 0.0622320108759371
+id_eos                      = DD2
+id_kappa2T                  = 48.363629772646476
+id_Lambda                   = 257.9393587874479
+id_eccentricity             = 
+
+id_mass_starA               = 1.654
+id_rest_mass_starA          = 1.8612128394989067
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 0.08227356520690156, 0.021140728781577894, 0.007359154719980631
+id_Lambdaell_starA          = 257.97113508562956, 390.3206876079845, 571.4685463633073
+id_mass_starB               = 1.654
+id_rest_mass_starB          = 1.8612128394989067
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 0.08227356520690156, 0.021140728781577894, 0.007359154719980631
+id_Lambdaell_starB          = 257.97113508562956, 390.3206876079845, 571.4685463633073
+# -------------------------------
+# Evolution
+# -------------------------------
+evolution_code                        = THC
+grid_refinement_levels                = 7
+grid_refinement_levels_moving         = 
+grid_refinement_levels_npoints        = 
+grid_refinement_levels_moving_npoints = 
+grid_spacing_min                      = 0.125
+grid_symmetries                       = bitant
+grid_shells                           = no
+grid_shells_radial_npoints            = 
+grid_shells_angular_npoints           = 
+grid_conservative_amr                 = yes
+subgrid_model                         = 
+metric_scheme                         = Z4c
+metric_boundary_conditions            = flat
+hydro_flux                            = HLLE
+hydro_reconstruction                  = MP5
+hydro_atmosphere_level                = 1e-14
+hydro_atmosphere_factor               = 0.0
+number_of_orbits                      = 4.0
+evolution_mol_scheme                  = RK3
+eos_evolution_Gamma_thermal           = 
+neutrino_scheme                       = M0

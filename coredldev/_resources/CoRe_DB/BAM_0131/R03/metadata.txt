@@ -1,0 +1,56 @@
+database_key            = BAM:0131:R03
+simulation_name         = SLy_1.718_0.982_0.00_0.00_0.0322_0.124
+binary_type             = BNS
+reference_bibkeys       = Ujevic:2022qle
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = SGRID
+id_type                     = CRV
+id_mass                     = 2.700133e+00 
+id_rest_mass                = 3.023734e+00
+id_mass_ratio               = 1.750025e+00
+id_ADM_mass                 = 2.681582e+00
+id_ADM_angularmomentum      = 7.427986e+00
+id_gw_frequency_Hz          = 3.855703e+02
+id_gw_frequency_Momega22    = 3.221944e-02
+id_eos                      = SLy
+id_kappa2T                  = 9.649509e+01
+id_Lambda                   = 5.034206e+02
+id_eccentricity             = 2.775446e-04
+
+id_mass_starA               = 1.718275e+00
+id_rest_mass_starA          = 1.969542e+00
+id_spin_starA               = 0.000000e+00, 0.000000e+00, 0.000000e+00
+id_LoveNum_kell_starA       = 5.774193e-02, 1.407412e-02, 4.631608e-03
+id_Lambdaell_starA          = 6.642876e+01, 6.384083e+01, 5.916890e+01
+id_mass_starB               = 9.818575e-01
+id_rest_mass_starB          = 1.054192e+00
+id_spin_starB               = 0.000000e+00, 0.000000e+00, 0.000000e+00
+id_LoveNum_kell_starB       = 1.272046e-01, 3.824119e-02, 1.551446e-02
+id_Lambdaell_starB          = 2.534729e+03, 9.401522e+03, 3.361348e+04
+# -------------------------------
+# Evolution
+# -------------------------------
+evolution_code                        = 
+grid_refinement_levels                = 7
+grid_refinement_levels_moving         = 4
+grid_refinement_levels_npoints        = 0
+grid_refinement_levels_moving_npoints = 128
+grid_spacing_min                      = 1.245000e-01
+grid_symmetries                       = box bitant
+grid_shells                           = no
+grid_shells_radial_npoints            = 
+grid_shells_angular_npoints           = 
+grid_conservative_amr                 = yes
+subgrid_model                         = 
+metric_scheme                         = Z4c
+metric_boundary_conditions            = background radcentered
+hydro_flux                            = HO_LLF
+hydro_reconstruction                  = WENOZ
+hydro_atmosphere_level                = 1.000000e-12
+hydro_atmosphere_factor               = 1.000000e+02
+number_of_orbits                      = 15.502358
+evolution_mol_scheme                  = RungeKutta4
+eos_evolution_Gamma_thermal           = 1.75
+neutrino_scheme                       = 

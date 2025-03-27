@@ -1,0 +1,32 @@
+database_key            = THC:0089
+available_runs          = R01, R02, R03
+simulation_name         = SFHo_1.364_1.364_0.00_0.00_0.048_M0_LK
+binary_type             = BNS
+reference_bibkeys       = Nedora:2020hxc
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 2.728 
+id_rest_mass                = 3.029669280539874
+id_mass_ratio               = 1.0
+id_ADM_mass                 = 2.703
+id_ADM_angularmomentum      = 7.405
+id_gw_frequency_Hz          = 565.522
+id_gw_frequency_Momega22    = 0.04774743760748532
+id_eos                      = SFHo
+id_kappa2T                  = 74.08588355402978
+id_Lambda                   = 395.12471228815883
+id_eccentricity             = 
+
+id_mass_starA               = 1.364
+id_rest_mass_starA          = 1.514834640269937
+id_spin_starA               = 0,0,0
+id_LoveNum_kell_starA       = 0.08229344349172829,0.021425594409982082,0.007594608087767034
+id_Lambdaell_starA          = 395.1247122881587,718.3166263503161,1269.914416303225
+id_mass_starB               = 1.364
+id_rest_mass_starB          = 1.514834640269937
+id_spin_starB               = 0,0,0
+id_LoveNum_kell_starB       = 0.08229344349172829,0.021425594409982082,0.007594608087767034
+id_Lambdaell_starB          = 395.1247122881587,718.3166263503161,1269.914416303225

@@ -1,0 +1,32 @@
+database_key            = THC:0033
+available_runs          = R01
+simulation_name         = SFHo_1.400_1.400_0.00_0.00_0.058
+binary_type             = BNS
+reference_bibkeys       = Radice:2016rys Radice:2017lry
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 2.8 
+id_rest_mass                = 3.09312
+id_mass_ratio               = 1.0
+id_ADM_mass                 = 2.7696
+id_ADM_angularmomentum      = 7.43612
+id_gw_frequency_Hz          = 671.38
+id_gw_frequency_Momega22    = 0.0581811941059
+id_eos                      = SFHo
+id_kappa2T                  = 61.66888445047656
+id_Lambda                   = 328.90071706920827
+id_eccentricity             = 
+
+id_mass_starA               = 1.4
+id_rest_mass_starA          = 1.54656
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 0.0788, 0.02028, 0.0071
+id_Lambdaell_starA          = 328.9007170692083, 558.8412995778499, 922.6410998540331
+id_mass_starB               = 1.4
+id_rest_mass_starB          = 1.54656
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 0.0788, 0.02028, 0.0071
+id_Lambdaell_starB          = 328.9007170692083, 558.8412995778499, 922.6410998540331

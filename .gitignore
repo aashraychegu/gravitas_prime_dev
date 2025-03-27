@@ -1,0 +1,7 @@
+*.h5
+CoRe_DB/**
+*.pyc
+__pycache__/
+*.vscode
+*.ipynb_checkpoints
+CoRe_DB/**/git

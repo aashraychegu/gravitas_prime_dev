@@ -1,0 +1,56 @@
+database_key            = THC:0026:R01
+simulation_name         = LS220_1.600_1.600_0.00_0.00_0.070_0.125
+binary_type             = BNS
+reference_bibkeys       = Radice:2016rys Radice:2017lry
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 3.2 
+id_rest_mass                = 3.58098
+id_mass_ratio               = 1.0
+id_ADM_mass                 = 3.1741
+id_ADM_angularmomentum      = 9.40155
+id_gw_frequency_Hz          = 705.866
+id_gw_frequency_Momega22    = 0.0699082516756
+id_eos                      = LS220
+id_kappa2T                  = 37.93877658890791
+id_Lambda                   = 202.3401418075089
+id_eccentricity             = 
+
+id_mass_starA               = 1.6
+id_rest_mass_starA          = 1.79049
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 0.0737, 0.0194, 0.00692
+id_Lambdaell_starA          = 202.34014180750881, 297.3915443937934, 423.074908562573
+id_mass_starB               = 1.6
+id_rest_mass_starB          = 1.79049
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 0.0737, 0.0194, 0.00692
+id_Lambdaell_starB          = 202.34014180750881, 297.3915443937934, 423.074908562573
+# -------------------------------
+# Evolution
+# -------------------------------
+evolution_code                        = THC
+grid_refinement_levels                = 7
+grid_refinement_levels_moving         = 
+grid_refinement_levels_npoints        = 
+grid_refinement_levels_moving_npoints = 
+grid_spacing_min                      = 0.125
+grid_symmetries                       = bitant
+grid_shells                           = no
+grid_shells_radial_npoints            = 
+grid_shells_angular_npoints           = 
+grid_conservative_amr                 = yes
+subgrid_model                         = 
+metric_scheme                         = Z4c
+metric_boundary_conditions            = 
+hydro_flux                            = HLLE
+hydro_reconstruction                  = MP5
+hydro_atmosphere_level                = 1.000000e-14
+hydro_atmosphere_factor               = 0.000000
+number_of_orbits                      = 2.589504e+00
+evolution_mol_scheme                  = RK3
+eos_evolution_Gamma_thermal           = 
+neutrino_scheme                       = Leakage

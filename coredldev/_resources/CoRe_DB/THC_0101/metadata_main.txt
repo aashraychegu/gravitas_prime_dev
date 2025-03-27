@@ -1,0 +1,32 @@
+database_key            = THC:0101
+available_runs          = R01
+simulation_name         = BLh_1.400_1.200_0.00_0.00_0.045_M0
+binary_type             = BNS
+reference_bibkeys       = Prakash:2021wpz
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 2.5999999999999996 
+id_rest_mass                = 2.8986808714009484
+id_mass_ratio               = 1.167
+id_ADM_mass                 = 2.57638
+id_ADM_angularmomentum      = 6.78789
+id_gw_frequency_Hz          = 277.276
+id_gw_frequency_Momega22    = 0.04462434178210165
+id_eos                      = BLh
+id_kappa2T                  = 121.21001305988294
+id_Lambda                   = 645.7158549684796
+id_eccentricity             = 
+
+id_mass_starA               = 1.4
+id_rest_mass_starA          = 1.5519169492579385
+id_spin_starA               = 0,0,0
+id_LoveNum_kell_starA       = 0.08395822131692109,0.022260887497793456,0.008032567966901662
+id_Lambdaell_starA          = 430.7171681093263,818.8220117751123,1513.1831205748765
+id_mass_starB               = 1.2
+id_rest_mass_starB          = 1.34676392214301
+id_spin_starB               = 0,0,0
+id_LoveNum_kell_starB       = 0.0961208360918839,0.0263058655899617,0.00981172377128218
+id_Lambdaell_starB          = 969.638992052257,2493.6106284135367,6242.762787302164

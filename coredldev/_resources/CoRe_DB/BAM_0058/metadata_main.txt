@@ -1,0 +1,32 @@
+database_key            = BAM:0058
+available_runs          = R01, R02
+simulation_name         = MPA1_1.350_1.350_0.00_0.00_0.038
+binary_type             = BNS
+reference_bibkeys       = Bernuzzi:2014kca
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 2.699924e+00 
+id_rest_mass                = 2.978880e+00
+id_mass_ratio               = 1.000000e+00
+id_ADM_mass                 = 2.677544e+00
+id_ADM_angularmomentum      = 7.658715e+00
+id_gw_frequency_Hz          = 4.545509e+02
+id_gw_frequency_Momega22    = 3.798074e-02
+id_eos                      = MPA1
+id_kappa2T                  = 1.141105e+02
+id_Lambda                   = 6.085892e+02
+id_eccentricity             = 8.824588e-03
+
+id_mass_starA               = 1.349962e+00
+id_rest_mass_starA          = 1.489440e+00
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 1.110700e-01, 3.123000e-02, 1.191000e-02
+id_Lambdaell_starA          = 6.085892e+02, 1.259670e+03, 2.525958e+03
+id_mass_starB               = 1.349962e+00
+id_rest_mass_starB          = 1.489440e+00
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 1.110700e-01, 3.123000e-02, 1.191000e-02
+id_Lambdaell_starB          = 6.085892e+02, 1.259670e+03, 2.525958e+03

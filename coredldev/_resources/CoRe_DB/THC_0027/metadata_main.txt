@@ -1,0 +1,32 @@
+database_key            = THC:0027
+available_runs          = R01
+simulation_name         = LS220_1.710_1.710_0.00_0.00_0.076
+binary_type             = BNS
+reference_bibkeys       = Radice:2016rys Radice:2017lry
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 3.42 
+id_rest_mass                = 3.85536
+id_mass_ratio               = 1.0
+id_ADM_mass                 = 3.38306
+id_ADM_angularmomentum      = 10.5037
+id_gw_frequency_Hz          = 721.974
+id_gw_frequency_Momega22    = 0.0764194421842
+id_eos                      = LS220
+id_kappa2T                  = 21.751101609140452
+id_Lambda                   = 116.00587524874906
+id_eccentricity             = 
+
+id_mass_starA               = 1.71
+id_rest_mass_starA          = 1.92768
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 0.063, 0.01601, 0.00551
+id_Lambdaell_starA          = 116.00587524874915, 140.2985043092244, 164.13739856199683
+id_mass_starB               = 1.71
+id_rest_mass_starB          = 1.92768
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 0.063, 0.01601, 0.00551
+id_Lambdaell_starB          = 116.00587524874915, 140.2985043092244, 164.13739856199683

@@ -1,0 +1,32 @@
+database_key            = BAM:0144
+available_runs          = R01, R02, R03, R04
+simulation_name         = SLy_1.350_1.350_0.17_0.17_0.0341_th180
+binary_type             = BNS
+reference_bibkeys       = Chaurasia:2020ntk
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = SGRID
+id_type                     = CTS-CRV
+id_mass                     = 2.700984e+00 
+id_rest_mass                = 2.989200e+00
+id_mass_ratio               = 1
+id_ADM_mass                 = 2.679978e+00
+id_ADM_angularmomentum      = 7.548425e+00
+id_gw_frequency_Hz          = 4.080570e+02
+id_gw_frequency_Momega22    = 3.410925e-02
+id_eos                      = SLy
+id_kappa2T                  = 7.316157e+01
+id_Lambda                   = 3.901951e+02
+id_eccentricity             = 0.000000e+00
+
+id_mass_starA               = 1.350492e+00
+id_rest_mass_starA          = 1.494600e+00
+id_spin_starA               = -3.417733e-12, -3.911040e-14, -1.742549e-01
+id_LoveNum_kell_starA       = 9.313719e-02, 2.551300e-02, 9.494089e-03
+id_Lambdaell_starA          = 3.901951e+02, 7.067245e+02, 1.242064e+03
+id_mass_starB               = 1.350492e+00
+id_rest_mass_starB          = 1.494600e+00
+id_spin_starB               = -3.417733e-12, -3.911040e-14, -1.742549e-01
+id_LoveNum_kell_starB       = 9.313718e-02, 2.551312e-02, 9.494089e-03
+id_Lambdaell_starB          = 3.901951e+02, 7.067278e+02, 1.242064e+03

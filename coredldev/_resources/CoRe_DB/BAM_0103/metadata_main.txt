@@ -1,0 +1,32 @@
+database_key            = BAM:0103
+available_runs          = R01, R02
+simulation_name         = SLy_1.351_1.351_0.00_0.00_0.052_camr
+binary_type             = BNS
+reference_bibkeys       = Dietrich:2015iva
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 2.701774e+00 
+id_rest_mass                = 2.991432e+00
+id_mass_ratio               = 1.000000e+00
+id_ADM_mass                 = 2.674886e+00
+id_ADM_angularmomentum      = 7.147569e+00
+id_gw_frequency_Hz          = 6.191768e+02
+id_gw_frequency_Momega22    = 5.177178e-02
+id_eos                      = SLy
+id_kappa2T                  = 7.279475e+01
+id_Lambda                   = 3.882387e+02
+id_eccentricity             = NAN
+
+id_mass_starA               = 1.350887e+00
+id_rest_mass_starA          = 1.495716e+00
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 9.307000e-02, 2.547000e-02, 9.470000e-03
+id_Lambdaell_starA          = 3.882387e+02, 7.012941e+02, 1.229349e+03
+id_mass_starB               = 1.350887e+00
+id_rest_mass_starB          = 1.495716e+00
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 9.307000e-02, 2.547000e-02, 9.470000e-03
+id_Lambdaell_starB          = 3.882387e+02, 7.012941e+02, 1.229349e+03

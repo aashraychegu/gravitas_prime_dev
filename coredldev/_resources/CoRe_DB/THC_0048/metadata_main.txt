@@ -1,0 +1,32 @@
+database_key            = THC:0048
+available_runs          = R01, R02
+simulation_name         = DD2_1.654_1.654_0.00_0.00_0.062_M0
+binary_type             = BNS
+reference_bibkeys       = Camilletti:2022jms
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 3.308 
+id_rest_mass                = 3.14784
+id_mass_ratio               = 1.0
+id_ADM_mass                 = 3.27
+id_ADM_angularmomentum      = 10.229
+id_gw_frequency_Hz          = 607.844
+id_gw_frequency_Momega22    = 0.0622320108759371
+id_eos                      = DD2
+id_kappa2T                  = 48.363629772646476
+id_Lambda                   = 257.9393587874479
+id_eccentricity             = 
+
+id_mass_starA               = 1.654
+id_rest_mass_starA          = 1.8612128394989067
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 0.08227356520690156, 0.021140728781577894, 0.007359154719980631
+id_Lambdaell_starA          = 257.97113508562956, 390.3206876079845, 571.4685463633073
+id_mass_starB               = 1.654
+id_rest_mass_starB          = 1.8612128394989067
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 0.08227356520690156, 0.021140728781577894, 0.007359154719980631
+id_Lambdaell_starB          = 257.97113508562956, 390.3206876079845, 571.4685463633073

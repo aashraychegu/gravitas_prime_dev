@@ -1,0 +1,32 @@
+database_key            = THC:0095
+available_runs          = R01
+simulation_name         = SLy4_1.452_1.283_0.00_0.00_0.048_M0
+binary_type             = BNS
+reference_bibkeys       = Nedora:2020hxc
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 2.735 
+id_rest_mass                = 3.0694107482963835
+id_mass_ratio               = 1.42
+id_ADM_mass                 = 2.70956
+id_ADM_angularmomentum      = 7.3966
+id_gw_frequency_Hz          = 569.17
+id_gw_frequency_Momega22    = 0.048178750341332295
+id_eos                      = SLy4
+id_kappa2T                  = 67.73858720824484
+id_Lambda                   = 360.7335808059667
+id_eccentricity             = 
+
+id_mass_starA               = 1.452
+id_rest_mass_starA          = 1.6409518539341208
+id_spin_starA               = 0,0,0
+id_LoveNum_kell_starA       = 0.07338773292319575,0.018603585292498805,0.006399171399458305
+id_Lambdaell_starA          = 236.88057367025712,357.7103556943615,523.5515618244189
+id_mass_starB               = 1.283
+id_rest_mass_starB          = 1.428458894362263
+id_spin_starB               = 0,0,0
+id_LoveNum_kell_starB       = 0.08581573333485028,0.022547143783567383,0.008053804844163888
+id_Lambdaell_starB          = 534.9107871309335,1089.3269464238792,2154.229917793403

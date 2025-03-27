@@ -1,0 +1,32 @@
+database_key            = BAM:0033
+available_runs          = R01
+simulation_name         = G2k123_1.515_1.515_0.05_0.05_0.053
+binary_type             = BNS
+reference_bibkeys       = Bernuzzi:2013rza
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = SGRID
+id_type                     = CRV
+id_mass                     = 3.029915e+00 
+id_rest_mass                = 3.250000e+00
+id_mass_ratio               = 1.000000e+00
+id_ADM_mass                 = 2.999238e+00
+id_ADM_angularmomentum      = 9.110921e+00
+id_gw_frequency_Hz          = 5.680515e+02
+id_gw_frequency_Momega22    = 5.326569e-02
+id_eos                      = G2k123
+id_kappa2T                  = 1.832005e+02
+id_Lambda                   = 9.770691e+02
+id_eccentricity             = NAN
+
+id_mass_starA               = 1.514958e+00
+id_rest_mass_starA          = 1.625000e+00
+id_spin_starA               = 1.313980e-14, -1.076905e-15, 1.144857e-01
+id_LoveNum_kell_starA       = 7.888000e-02, 2.336000e-02, 9.560000e-03
+id_Lambdaell_starA          = 9.770691e+02, 2.951760e+03, 8.802133e+03
+id_mass_starB               = 1.514958e+00
+id_rest_mass_starB          = 1.625000e+00
+id_spin_starB               = 1.313980e-14, -1.076905e-15, 1.144857e-01
+id_LoveNum_kell_starB       = 7.888000e-02, 2.336000e-02, 9.560000e-03
+id_Lambdaell_starB          = 9.770691e+02, 2.951760e+03, 8.802133e+03

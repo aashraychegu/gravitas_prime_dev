@@ -1,0 +1,32 @@
+database_key            = THC:0005
+available_runs          = R01
+simulation_name         = BHBlp_1.400_1.200_0.00_0.00_0.053
+binary_type             = BNS
+reference_bibkeys       = Radice:2016rys Radice:2017lry
+# -------------------------------
+# Initial data (ID)
+# -------------------------------
+id_code                     = LORENE
+id_type                     = Irrotational
+id_mass                     = 2.6 
+id_rest_mass                = 2.82946
+id_mass_ratio               = 1.16666666667
+id_ADM_mass                 = 2.57644
+id_ADM_angularmomentum      = 6.53749
+id_gw_frequency_Hz          = 652.714
+id_gw_frequency_Momega22    = 0.0525233569115
+id_eos                      = BHBlp
+id_kappa2T                  = 198.5671528237351
+id_Lambda                   = 1057.5952309682204
+id_eccentricity             = 
+
+id_mass_starA               = 1.4
+id_rest_mass_starA          = 1.53253
+id_spin_starA               = 0, 0, 0
+id_LoveNum_kell_starA       = 0.09713, 0.02596, 0.00942
+id_Lambdaell_starA          = 690.6300963090755, 1508.0652869857847, 3193.461363781705
+id_mass_starB               = 1.2
+id_rest_mass_starB          = 1.29693
+id_spin_starB               = 0, 0, 0
+id_LoveNum_kell_starB       = 0.10752, 0.02943, 0.01096
+id_Lambdaell_starB          = 1612.2480295082821, 4859.330076873647, 14233.516050669448
