@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "bilby>=2.6.0",
+    "cutensor>=1.6.0.3",
     "gwpy>=3.0.13",
     "matplotlib>=3.10.3",
     "numpy>=2.3.1",
