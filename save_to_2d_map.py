@@ -46,7 +46,7 @@ import pycbc.filter
 import scipy
 from scipy.signal import welch
 # Load frequency values for plotting
-freqs = np.genfromtxt("fspace.npy")
+freqs = np.genfromtxt("freqs.npy")
 
 # UPDATE CORE DATABASE
 import torch.utils.data as data
@@ -56,7 +56,7 @@ import h5py
 datapoints, eosmap, remaining = h5Finder(shiftpercents=[0],angles=[(0,0,0)],distances = [1]).get_datapoints()
 source = h5Source(eos_to_index_map=eosmap)
 dataset = CoReDataset(source, datapoints,lambda x: x)
-transformed_dataset = CoReDataset(source, datapoints,pipeline([DetectorAngleMixing(),distance_scale(),time_shift(),noise_injection_1d(),TimeSeriesWhitener(4,2),to_tensor_clean()]))
+transformed_dataset = CoReDataset(source, datapoints,pipeline([DetectorAngleMixing(),distance_scale(),time_shift(),to_tensor_clean()]))
 
 # Determine optimal device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -128,7 +128,7 @@ def check_memory():
 
 # Process all batches efficiently
 sample_counter = 0
-with torch.cuda.amp.autocast(enabled=torch.cuda.is_available()):  # Use mixed precision if available
+with torch.amp.autocast("cuda",enabled=torch.cuda.is_available()):  # Use mixed precision if available
     for batch_idx, (batch, datapoint) in enumerate(tqdm.tqdm(dataloader, desc="Processing batches")):
         # Move batch to device
         batch = batch.to(device)
