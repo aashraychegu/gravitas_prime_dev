@@ -5,3 +5,7 @@ __pycache__/
 *.vscode
 *.ipynb_checkpoints
 CoRe_DB/**/git
+dev/coredldev/_resources/CoRe_DB/**\
+metadata.txt
+.gitattributes
+metadata_main.txt

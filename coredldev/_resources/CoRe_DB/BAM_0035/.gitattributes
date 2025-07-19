@@ -1,4 +1,0 @@
-R04/data.h5 filter=lfs diff=lfs merge=lfs -text
-R01/data.h5 filter=lfs diff=lfs merge=lfs -text
-R02/data.h5 filter=lfs diff=lfs merge=lfs -text
-R03/data.h5 filter=lfs diff=lfs merge=lfs -text
