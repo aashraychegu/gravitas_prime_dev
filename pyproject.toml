@@ -5,10 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "behavelet>=0.0.2",
     "bilby>=2.6.0",
     "cutensor>=1.6.0.3",
     "gwpy>=3.0.13",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
     "matplotlib>=3.10.3",
+    "notebook>=7.4.4",
     "numpy>=2.3.1",
     "pycbc>=2.9.0",
     "scipy>=1.16.0",
